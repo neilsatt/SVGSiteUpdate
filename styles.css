@@ -5,7 +5,7 @@ body {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #111;
-  background: url('images/background.png') #edeff0;
+  background: url('svgs/background.svg') #edeff0;
 }
 
 #container {
@@ -79,4 +79,27 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+
+
+/* Media Query */
+@media screen and (max-width: 425px) {
+    
+    .mainLogoText {
+      opacity: 0;
+    }
+    
+    /* Somewhat of a hack, but going off of some of the comments in the project 6 slack chatroom */
+    .title span {
+       display: none; 
+    }
+    .title:after {
+        content: "Paw Print Kennels"
+        
+    }
+    
+  
+
+    
 }

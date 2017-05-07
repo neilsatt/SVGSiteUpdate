@@ -1,0 +1,22 @@
+REQUIREMENTS
+
+
+
+BACKGROUND
+    Replace the background pattern PNG with the matching SVG (background.svg)  - DONE
+
+LOGO
+    Replace rasterized PNG logo with the SVG logo image (logo.svg) using the inline SVG method to add it  - DONE
+    Ensure the logo SVG is styled to the same size as the original PNG (140px x 120px) - DONE
+    At a page width of less than 425 pixels, remove the text from the logo and add an H1 tag that contains the logo text - DONE
+
+
+DOG IMAGES
+    Replace the dog images with SVG images using the  tag.
+    Size the dog SVGs to 170px x 170px to match the original PNGs.
+    
+
+MENU ICONS
+    Change icons in the menu from rasterized images to inline SVGs.
+    When a user hovers over a nav menu item, use CSS to change the color of both the text AND the inline SVG.
+
