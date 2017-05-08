@@ -21,14 +21,16 @@ p {
   text-align: left;
 }
 
+
+
 a {
   text-decoration: none;
   color: #39add1;
   font-weight: 700;
-  }
-  a:hover {
-    color: #111;
-  }
+}
+  
+
+
 
 header {
   padding-top: 10px;
@@ -81,6 +83,13 @@ footer {
   color: #ba8058;
 }
 
+.icons:hover a{
+    color: #111;
+}
+
+.icons:hover svg .st4{
+    fill: #111;
+}
 
 
 /* Media Query */
