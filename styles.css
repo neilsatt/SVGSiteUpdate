@@ -84,31 +84,29 @@ footer {
 }
 
 .icons:hover a{
-    color: #111;
+    color: #000;
 }
-
+/* doesn't pass css validatation, but a Treehouse moderator said it was okay to use the fill property in a blog posting */
 .icons:hover svg .st4{
-    fill: #111;
+    fill: black;
 }
 
+/* H1 tag should be hidden when browser window is greater or equal to 425 pixels */
+.title {
+    display: none; 
+}
 
 /* Media Query */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
     
+    /* Text on logo disappears and H1 tag appears when browser window is less than 425 pixels */
     .mainLogoText {
       opacity: 0;
     }
     
-    /* Somewhat of a hack, but going off of some of the comments in the project 6 slack chatroom */
-    .title span {
-       display: none; 
+    .title {
+        display: block;
     }
-    .title:after {
-        content: "Paw Print Kennels"
-        
-    }
-    
-  
 
     
 }
